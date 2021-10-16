@@ -1,0 +1,24 @@
+-------------------------------------
+MultinomialNB default values, try 1
+-------------------------------------
+Confusion Matrix:
+[[103   0   3   0   1]
+ [  0  71   1   0   2]
+ [  0   1  78   0   0]
+ [  0   1   0 100   0]
+ [  0   1   0   0  83]]
+-------------------------------------
+Precision, Recall, F1-Score, Support:
+
+               precision    recall  f1-score   support
+
+     business       0.98      0.95      0.96        96
+entertainment       0.96      0.97      0.97        77
+     politics       0.95      0.96      0.96        84
+        sport       1.00      0.98      0.99       110
+         tech       0.95      0.99      0.97        78
+
+     accuracy                           0.97       445
+    macro avg       0.97      0.97      0.97       445
+ weighted avg       0.97      0.97      0.97       445
+ -------------------------------------
