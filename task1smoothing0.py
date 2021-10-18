@@ -37,7 +37,7 @@ X_train, X_test, y_train, y_test = train_test_split(corpus_counts, corpus.target
 
 # Part 6
 
-clf = MultinomialNB()
+clf = MultinomialNB(alpha = 0.9)
 clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 

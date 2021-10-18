@@ -21,4 +21,243 @@ entertainment       0.96      0.97      0.97        77
      accuracy                           0.97       445
     macro avg       0.97      0.97      0.97       445
  weighted avg       0.97      0.97      0.97       445
+-------------------------------------
+Accuracy: 0.9775280898876404
+Macro F1: 0.9770135829860443
+Weighted F1: 0.9774463315183296
+-------------------------------------
+Prior Probabilities:
+[-1.47801548 -1.76734094 -1.62073747 -1.48543208 -1.731796  ]
  -------------------------------------
+Size of Vocabulary: 29421
+
+Total Word Count in business: 70596903
+Total Word Count in entertainment: 68146975
+Total Word Count in politics: 62938590
+Total Word Count in sport: 55867735
+Total Word Count in tech: 55867735
+Total Word Count: 313417938
+-------------------------------------
+Confusion Matrix:
+[[104   0   4   0   3]
+ [  0  74   0   0   1]
+ [  0   0  87   0   1]
+ [  0   0   0 105   0]
+ [  0   0   1   0  65]]
+-------------------------------------
+Precision, Recall, F1-Score, Support:
+               precision    recall  f1-score   support
+
+     business       1.00      0.94      0.97       111
+entertainment       1.00      0.99      0.99        75
+     politics       0.95      0.99      0.97        88
+        sport       1.00      1.00      1.00       105
+         tech       0.93      0.98      0.96        66
+
+     accuracy                           0.98       445
+    macro avg       0.97      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+-------------------------------------
+Accuracy: 0.9775280898876404
+Macro F1: 0.9766558941353972
+Weighted F1: 0.9776125680173354
+-------------------------------------
+Prior Probabilities:
+[-1.49540723 -1.74457573 -1.68831089 -1.47801548 -1.67023811]
+-------------------------------------
+Size of Vocabulary: 29421
+-------------------------------------
+Total Count for Business is 855189
+Total Count for Entertainment is 443121
+Total Count for Politics is 651907
+Total Count for Sport is 160692
+Total Count for Tech is 616924
+-------------------------------------
+Total Word Count: 432782910
+-------------------------------------
+Total Words With Zero Frequency for Business is 18760
+Percentage of Words With Zero Frequency for Business is 0.6376397811087319
+Total Words With Zero Frequency for Entertainment is 19005
+Percentage of Words With Zero Frequency for Entertainment is 0.6459671663097787
+Total Words With Zero Frequency for Politics is 19307
+Percentage of Words With Zero Frequency for Politics is 0.6562319431698447
+Total Words With Zero Frequency for Sport is 19889
+Percentage of Words With Zero Frequency for Sport is 0.6760137316882499
+Total Words With Zero Frequency for Tech is 18092
+Percentage of Words With Zero Frequency for Tech is 0.6149349104381224
+Total Words With One Frequency: 20866
+-------------------------------------
+Percentage of Words With One Frequency: 0.7092213045103838
+-------------------------------------
+Total Frequency of THe: 42045.0
+Log Probability of THe: -4.012555745931256
+Total Frequency of Start: 6.0
+Log Probability of Start: -7.858118852363579
+-------------------------------------
+
+
+
+
+MultinomialNB default values, try 2
+-------------------------------------
+Confusion Matrix:
+[[ 97   0   3   0   3]
+ [  2  80   3   0   2]
+ [  1   1  70   0   0]
+ [  0   0   1 105   0]
+ [  0   0   0   0  77]]
+ -------------------------------------
+Precision, Recall, F1-Score, Support:
+               precision    recall  f1-score   support
+
+     business       0.97      0.94      0.96       103
+entertainment       0.99      0.92      0.95        87
+     politics       0.91      0.97      0.94        72
+        sport       1.00      0.99      1.00       106
+         tech       0.94      1.00      0.97        77
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.96      0.96       445
+ weighted avg       0.97      0.96      0.96       445
+-------------------------------------
+Accuracy: 0.9640449438202248
+Macro F1: 0.9622914830148683
+Weighted F1: 0.9640851545830401
+-------------------------------------
+Prior Probabilities:
+[-1.47555546 -1.78392507 -1.64082423 -1.48048158 -1.70362513]
+-------------------------------------
+Size of Vocabulary: 29421
+-------------------------------------
+Total Count for Business is 906325
+Total Count for Entertainment is 547279
+Total Count for Politics is 745679
+Total Count for Sport is 148230
+Total Count for Tech is 603107
+-------------------------------------
+Total Word Count: 432782910
+-------------------------------------
+Total Words With Zero Frequency for Business is 18757
+Percentage of Words With Zero Frequency for Business is 0.6375378131266782
+Total Words With Zero Frequency for Entertainment is 18910
+Percentage of Words With Zero Frequency for Entertainment is 0.6427381802114136
+Total Words With Zero Frequency for Politics is 19000
+Percentage of Words With Zero Frequency for Politics is 0.6457972196730226
+Total Words With Zero Frequency for Sport is 19687
+Percentage of Words With Zero Frequency for Sport is 0.6691478875633051
+Total Words With Zero Frequency for Tech is 18263
+Percentage of Words With Zero Frequency for Tech is 0.6207470854151796
+-------------------------------------
+Total Words With One Frequency: 21166
+Percentage of Words With One Frequency: 0.7194181027157472
+-------------------------------------
+Total Frequency of The: 42787.0
+Log Probability of The: -4.004958265646799
+Total Frequency of Start: 6.0
+Log Probability of Start: -7.858118852363579
+
+
+
+
+
+MultinomialNB default values, Smoothing = 0.0001
+-------------------------------------
+[[107   2   3   0   4]
+ [  0  78   1   0   3]
+ [  3   0  71   0   1]
+ [  1   0   0 100   0]
+ [  0   1   0   0  70]]
+               precision    recall  f1-score   support
+
+     business       0.96      0.92      0.94       116
+entertainment       0.96      0.95      0.96        82
+     politics       0.95      0.95      0.95        75
+        sport       1.00      0.99      1.00       101
+         tech       0.90      0.99      0.94        71
+
+     accuracy                           0.96       445
+    macro avg       0.95      0.96      0.96       445
+ weighted avg       0.96      0.96      0.96       445
+
+Accuracy: 0.9573033707865168
+Macro F1: 0.956215069996353
+Weighted F1: 0.9574028710898398
+[-1.50801773 -1.76734094 -1.64955791 -1.46821148 -1.68527599]
+29421
+Total Count for 0 is 871285
+Total Count for 1 is 450207
+Total Count for 2 is 625509
+Total Count for 3 is 150299
+Total Count for 4 is 692134
+Total Word Count: 432782910
+Total Words With Zero Frequency for 0 is 18961
+Percentage of Words With Zero Frequency for 0 is 0.6444716359063254
+Total Words With Zero Frequency for 1 is 18892
+Percentage of Words With Zero Frequency for 1 is 0.6421263723190918
+Total Words With Zero Frequency for 2 is 19133
+Percentage of Words With Zero Frequency for 2 is 0.6503178002107338
+Total Words With Zero Frequency for 3 is 19784
+Percentage of Words With Zero Frequency for 3 is 0.6724448523163726
+Total Words With Zero Frequency for 4 is 17970
+Percentage of Words With Zero Frequency for 4 is 0.6107882125012746
+Total Words With One Frequency: 21218
+Percentage of Words With One Frequency: 0.7211855477380102
+(array([26462], dtype=int32),)
+(array([25139], dtype=int32),)
+Total Frequency of THe: 42145.0
+Log Probability of THe: -4.011524044574458
+Total Frequency of Start: 6.0
+Log Probability of Start: -7.858118852363579
+
+
+
+
+
+MultinomialNB default values, Smoothing = 0.9
+-------------------------------------
+[[113   0   2   0   3]
+ [  1  67   3   0   1]
+ [  0   0  77   0   0]
+ [  0   0   0 106   0]
+ [  0   2   1   0  69]]
+               precision    recall  f1-score   support
+
+     business       0.99      0.96      0.97       118
+entertainment       0.97      0.93      0.95        72
+     politics       0.93      1.00      0.96        77
+        sport       1.00      1.00      1.00       106
+         tech       0.95      0.96      0.95        72
+
+     accuracy                           0.97       445
+    macro avg       0.97      0.97      0.97       445
+ weighted avg       0.97      0.97      0.97       445
+
+Accuracy: 0.9707865168539326
+Macro F1: 0.9677433357789191
+Weighted F1: 0.9708099903550496
+[-1.5131068  -1.73497566 -1.65542303 -1.48048158 -1.68831089]
+29421
+Total Count for 0 is 850700
+Total Count for 1 is 462988
+Total Count for 2 is 703178
+Total Count for 3 is 125588
+Total Count for 4 is 644817
+Total Word Count: 432782910
+Total Words With Zero Frequency for 0 is 18852
+Percentage of Words With Zero Frequency for 0 is 0.6407667992250433
+Total Words With Zero Frequency for 1 is 18978
+Percentage of Words With Zero Frequency for 1 is 0.645049454471296
+Total Words With Zero Frequency for 2 is 19054
+Percentage of Words With Zero Frequency for 2 is 0.6476326433499882
+Total Words With Zero Frequency for 3 is 19709
+Percentage of Words With Zero Frequency for 3 is 0.6698956527650318
+Total Words With Zero Frequency for 4 is 18260
+Percentage of Words With Zero Frequency for 4 is 0.620645117433126
+Total Words With One Frequency: 20992
+Percentage of Words With One Frequency: 0.7135039597566364
+(array([26462], dtype=int32),)
+(array([25139], dtype=int32),)
+Total Frequency of THe: 42111.0
+Log Probability of THe: -4.011874548115719
+Total Frequency of Start: 7.0
+Log Probability of Start: -7.791172062732967
