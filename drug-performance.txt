@@ -1,0 +1,276 @@
+Gaussian NB
+-------------------------------------
+Confusion Matrix:
+[[ 8  0  0  0  0]
+ [ 0  5  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 13  1]
+ [ 4  0  1  0 15]]
+-------------------------------------
+              precision    recall  f1-score   support
+
+       DrugA       0.67      1.00      0.80         8
+       DrugB       1.00      1.00      1.00         5
+       DrugC       0.75      1.00      0.86         3
+       DrugX       1.00      0.93      0.96        14
+       DrugY       0.94      0.75      0.83        20
+
+    accuracy                           0.88        50
+   macro avg       0.87      0.94      0.89        50
+weighted avg       0.91      0.88      0.88        50
+-------------------------------------
+Accuracy: 0.88
+Macro F1: 0.8906878306878306
+Weighted F1: 0.8823915343915345
+-------------------------------------
+
+
+
+Base-DT
+-------------------------------------
+Confusion Matrix:
+[[ 8  0  0  0  0]
+ [ 0  5  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 14  0]
+ [ 0  0  0  0 20]]
+ -------------------------------------
+              precision    recall  f1-score   support
+
+       DrugA       1.00      1.00      1.00         8
+       DrugB       1.00      1.00      1.00         5
+       DrugC       1.00      1.00      1.00         3
+       DrugX       1.00      1.00      1.00        14
+       DrugY       1.00      1.00      1.00        20
+
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
+-------------------------------------
+Accuracy: 1.0
+Macro F1: 1.0
+Weighted F1: 1.0
+-------------------------------------
+
+
+
+Top-DT, max_depth = 10, min samples split = 3
+-------------------------------------
+Confusion Matrix:
+[[ 8  0  0  0  0]
+ [ 0  5  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 14  0]
+ [ 0  0  0  0 20]]
+ -------------------------------------
+              precision    recall  f1-score   support
+
+       DrugA       1.00      1.00      1.00         8
+       DrugB       1.00      1.00      1.00         5
+       DrugC       1.00      1.00      1.00         3
+       DrugX       1.00      1.00      1.00        14
+       DrugY       1.00      1.00      1.00        20
+
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
+-------------------------------------
+Accuracy: 1.0
+Macro F1: 1.0
+Weighted F1: 1.0
+-------------------------------------
+
+
+
+Top-DT, max_depth = 8, min samples split = 5
+-------------------------------------
+Confusion Matrix:
+[[ 8  0  0  0  0]
+ [ 0  5  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 14  0]
+ [ 0  0  0  0 20]]
+ -------------------------------------
+              precision    recall  f1-score   support
+
+       DrugA       1.00      1.00      1.00         8
+       DrugB       1.00      1.00      1.00         5
+       DrugC       1.00      1.00      1.00         3
+       DrugX       1.00      1.00      1.00        14
+       DrugY       1.00      1.00      1.00        20
+
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
+-------------------------------------
+Accuracy: 1.0
+Macro F1: 1.0
+Weighted F1: 1.0
+-------------------------------------
+
+
+
+Top-DT, max_depth = 15, min samples split = 2
+-------------------------------------
+Confusion Matrix:
+[[ 8  0  0  0  0]
+ [ 0  5  0  0  0]
+ [ 0  0  3  0  0]
+ [ 0  0  0 14  0]
+ [ 0  0  0  0 20]]
+ -------------------------------------
+              precision    recall  f1-score   support
+
+       DrugA       1.00      1.00      1.00         8
+       DrugB       1.00      1.00      1.00         5
+       DrugC       1.00      1.00      1.00         3
+       DrugX       1.00      1.00      1.00        14
+       DrugY       1.00      1.00      1.00        20
+
+    accuracy                           1.00        50
+   macro avg       1.00      1.00      1.00        50
+weighted avg       1.00      1.00      1.00        50
+-------------------------------------
+Accuracy: 1.0
+Macro F1: 1.0
+Weighted F1: 1.0
+-------------------------------------
+
+
+
+Perceptron
+-------------------------------------
+Confusion Matrix:
+[[ 7  1  0  0  0]
+ [ 1  4  0  0  0]
+ [ 1  2  0  0  0]
+ [ 4  7  0  0  3]
+ [ 6  0  0  0 14]]
+ -------------------------------------
+              precision    recall  f1-score   support
+
+       DrugA       0.37      0.88      0.52         8
+       DrugB       0.29      0.80      0.42         5
+       DrugC       0.00      0.00      0.00         3
+       DrugX       0.00      0.00      0.00        14
+       DrugY       0.82      0.70      0.76        20
+
+    accuracy                           0.50        50
+   macro avg       0.30      0.47      0.34        50
+weighted avg       0.42      0.50      0.43        50
+-------------------------------------
+Accuracy: 0.5
+Macro F1: 0.3392655813708445
+Weighted F1: 0.4277709288235604
+-------------------------------------
+
+
+
+Base-MLP
+-------------------------------------
+Confusion Matrix:
+[[ 0  0  0  2  6]
+ [ 0  0  0  5  0]
+ [ 0  0  0  2  1]
+ [ 0  0  0  9  5]
+ [ 0  0  0  0 20]]
+ -------------------------------------
+              precision    recall  f1-score   support
+
+       DrugA       0.00      0.00      0.00         8
+       DrugB       0.00      0.00      0.00         5
+       DrugC       0.00      0.00      0.00         3
+       DrugX       0.50      0.64      0.56        14
+       DrugY       0.62      1.00      0.77        20
+
+    accuracy                           0.58        50
+   macro avg       0.23      0.33      0.27        50
+weighted avg       0.39      0.58      0.47        50
+-------------------------------------
+Accuracy: 0.58
+Macro F1: 0.2663461538461539
+Weighted F1: 0.46519230769230774
+-------------------------------------
+
+
+-------------------------------------
+Top-MLP - Hidden Layer Sizes: 30,50 - Activation: Tanh - Solver: Adam
+-------------------------------------
+Confusion Matrix:
+[[ 6  0  0  2  0]
+ [ 0  0  0  5  0]
+ [ 0  0  0  2  1]
+ [ 0  0  0 11  3]
+ [ 0  0  0  0 20]]
+-------------------------------------
+              precision    recall  f1-score   support
+
+       DrugA       1.00      0.75      0.86         8
+       DrugB       0.00      0.00      0.00         5
+       DrugC       0.00      0.00      0.00         3
+       DrugX       0.55      0.79      0.65        14
+       DrugY       0.83      1.00      0.91        20
+
+    accuracy                           0.74        50
+   macro avg       0.48      0.51      0.48        50
+weighted avg       0.65      0.74      0.68        50
+-------------------------------------
+Accuracy: 0.74
+Macro F1: 0.4826585179526356
+Weighted F1: 0.681955691367456
+
+
+
+Averages and Standard Deviation:
+-------------------------------------
+Gaussian NB
+Average Accuracy:
+Average Macro-Average F1:
+Average Weighted-Average F1:
+Std Accuracy:
+Std Macro-Average F1:
+Std Weighted-Average F1:
+-------------------------------------
+Base-DT
+Average Accuracy:
+Average Macro-Average F1:
+Average Weighted-Average F1:
+Std Accuracy:
+Std Macro-Average F1:
+Std Weighted-Average F1:
+-------------------------------------
+Top-DT
+Average Accuracy:
+Average Macro-Average F1:
+Average Weighted-Average F1:
+Std Accuracy:
+Std Macro-Average F1:
+Std Weighted-Average F1:
+-------------------------------------
+Perceptron
+Average Accuracy:
+Average Macro-Average F1:
+Average Weighted-Average F1:
+Std Accuracy:
+Std Macro-Average F1:
+Std Weighted-Average F1:
+-------------------------------------
+Base-MLP
+Average Accuracy:
+Average Macro-Average F1:
+Average Weighted-Average F1:
+Std Accuracy:
+Std Macro-Average F1:
+Std Weighted-Average F1:
+-------------------------------------
+Top-MLP
+Average Accuracy:
+Average Macro-Average F1:
+Average Weighted-Average F1:
+Std Accuracy:
+Std Macro-Average F1:
+Std Weighted-Average F1:
+-------------------------------------
+
+
+

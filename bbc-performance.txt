@@ -155,18 +155,21 @@ Total Frequency of The: 42787.0
 Log Probability of The: -4.004958265646799
 Total Frequency of Start: 6.0
 Log Probability of Start: -7.858118852363579
-
+-------------------------------------
 
 
 
 
 MultinomialNB default values, Smoothing = 0.0001
 -------------------------------------
+Confusion Matrix:
 [[107   2   3   0   4]
  [  0  78   1   0   3]
  [  3   0  71   0   1]
  [  1   0   0 100   0]
  [  0   1   0   0  70]]
+-------------------------------------
+Precision, Recall, F1-Score, Support:
                precision    recall  f1-score   support
 
      business       0.96      0.92      0.94       116
@@ -178,48 +181,57 @@ entertainment       0.96      0.95      0.96        82
      accuracy                           0.96       445
     macro avg       0.95      0.96      0.96       445
  weighted avg       0.96      0.96      0.96       445
-
+-------------------------------------
 Accuracy: 0.9573033707865168
 Macro F1: 0.956215069996353
 Weighted F1: 0.9574028710898398
+-------------------------------------
+Prior Probabilities:
 [-1.50801773 -1.76734094 -1.64955791 -1.46821148 -1.68527599]
-29421
-Total Count for 0 is 871285
-Total Count for 1 is 450207
-Total Count for 2 is 625509
-Total Count for 3 is 150299
-Total Count for 4 is 692134
+-------------------------------------
+Size of Vocabulary: 29421
+-------------------------------------
+Total Count for Business is 871285
+Total Count for Entertainment is 450207
+Total Count for Politics is 625509
+Total Count for Sport is 150299
+Total Count for Tech is 692134
 Total Word Count: 432782910
-Total Words With Zero Frequency for 0 is 18961
-Percentage of Words With Zero Frequency for 0 is 0.6444716359063254
-Total Words With Zero Frequency for 1 is 18892
-Percentage of Words With Zero Frequency for 1 is 0.6421263723190918
-Total Words With Zero Frequency for 2 is 19133
-Percentage of Words With Zero Frequency for 2 is 0.6503178002107338
-Total Words With Zero Frequency for 3 is 19784
-Percentage of Words With Zero Frequency for 3 is 0.6724448523163726
-Total Words With Zero Frequency for 4 is 17970
-Percentage of Words With Zero Frequency for 4 is 0.6107882125012746
+-------------------------------------
+Total Words With Zero Frequency for Business is 18961
+Percentage of Words With Zero Frequency for Business is 0.6444716359063254
+Total Words With Zero Frequency for Entertainment is 18892
+Percentage of Words With Zero Frequency for Entertainment is 0.6421263723190918
+Total Words With Zero Frequency for Politics is 19133
+Percentage of Words With Zero Frequency for Politics is 0.6503178002107338
+Total Words With Zero Frequency forSport3 is 19784
+Percentage of Words With Zero Frequency for Sport is 0.6724448523163726
+Total Words With Zero Frequency for Tech is 17970
+Percentage of Words With Zero Frequency for Tech is 0.6107882125012746
+-------------------------------------
 Total Words With One Frequency: 21218
 Percentage of Words With One Frequency: 0.7211855477380102
-(array([26462], dtype=int32),)
-(array([25139], dtype=int32),)
-Total Frequency of THe: 42145.0
-Log Probability of THe: -4.011524044574458
+-------------------------------------
+Total Frequency of The: 42145.0
+Log Probability of The: -4.011524044574458
 Total Frequency of Start: 6.0
 Log Probability of Start: -7.858118852363579
-
+-------------------------------------
 
 
 
 
 MultinomialNB default values, Smoothing = 0.9
 -------------------------------------
+Confusion Matrix:
 [[113   0   2   0   3]
  [  1  67   3   0   1]
  [  0   0  77   0   0]
  [  0   0   0 106   0]
  [  0   2   1   0  69]]
+ -------------------------------------
+Precision, Recall, F1-Score, Support:
+
                precision    recall  f1-score   support
 
      business       0.99      0.96      0.97       118
@@ -231,33 +243,38 @@ entertainment       0.97      0.93      0.95        72
      accuracy                           0.97       445
     macro avg       0.97      0.97      0.97       445
  weighted avg       0.97      0.97      0.97       445
-
+-------------------------------------
 Accuracy: 0.9707865168539326
 Macro F1: 0.9677433357789191
 Weighted F1: 0.9708099903550496
+-------------------------------------
+Prior Probabilities:
 [-1.5131068  -1.73497566 -1.65542303 -1.48048158 -1.68831089]
-29421
-Total Count for 0 is 850700
-Total Count for 1 is 462988
-Total Count for 2 is 703178
-Total Count for 3 is 125588
-Total Count for 4 is 644817
+-------------------------------------
+Size of Vocabulary: 29421
+-------------------------------------
+Total Count for Business is 850700
+Total Count for Entertainment is 462988
+Total Count for Politics is 703178
+Total Count for Sport is 125588
+Total Count for Tech is 644817
 Total Word Count: 432782910
-Total Words With Zero Frequency for 0 is 18852
-Percentage of Words With Zero Frequency for 0 is 0.6407667992250433
-Total Words With Zero Frequency for 1 is 18978
-Percentage of Words With Zero Frequency for 1 is 0.645049454471296
-Total Words With Zero Frequency for 2 is 19054
-Percentage of Words With Zero Frequency for 2 is 0.6476326433499882
-Total Words With Zero Frequency for 3 is 19709
-Percentage of Words With Zero Frequency for 3 is 0.6698956527650318
-Total Words With Zero Frequency for 4 is 18260
-Percentage of Words With Zero Frequency for 4 is 0.620645117433126
+-------------------------------------
+Total Words With Zero Frequency for Business is 18852
+Percentage of Words With Zero Frequency for Business is 0.6407667992250433
+Total Words With Zero Frequency for Entertainment is 18978
+Percentage of Words With Zero Frequency for Entertainment is 0.645049454471296
+Total Words With Zero Frequency for Politics is 19054
+Percentage of Words With Zero Frequency for Politics is 0.6476326433499882
+Total Words With Zero Frequency for Sport is 19709
+Percentage of Words With Zero Frequency for Sport is 0.6698956527650318
+Total Words With Zero Frequency for Tech is 18260
+Percentage of Words With Zero Frequency for Tech is 0.620645117433126
+-------------------------------------
 Total Words With One Frequency: 20992
 Percentage of Words With One Frequency: 0.7135039597566364
-(array([26462], dtype=int32),)
-(array([25139], dtype=int32),)
-Total Frequency of THe: 42111.0
-Log Probability of THe: -4.011874548115719
+-------------------------------------
+Total Frequency of The: 42111.0
+Log Probability of The: -4.011874548115719
 Total Frequency of Start: 7.0
 Log Probability of Start: -7.791172062732967
