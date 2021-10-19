@@ -1,4 +1,4 @@
-How to Run:
+Repository can be found here: https://github.com/lposo/COMP472-Assignment-1How to Run:
 Ensure that you have Python 3 installed.
 For this project, I used pip.virtualenv.
 
