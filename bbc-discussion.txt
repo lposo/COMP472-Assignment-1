@@ -1,4 +1,6 @@
-A: 
+A: Since the classes aren't too badly imbalance, accuracy can be used in this case. If there were far more of one class in comparison to the 
+others, this could lead to a problem where the task would be more likely to predict the larger class even if it was incorrect. So, as classes
+are pretty close in size, accuracy should suffice.
 
 B: The performance of steps 8-10 are different than the previous step 7 because of the different smoothing values applied.
 For Part 7, the smoothing value was 1, whereas the smoothing for 9 and 10 were 0.0001 and 0.9 respectively. This means that
