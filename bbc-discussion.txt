@@ -1,5 +1,8 @@
-A:
+A: 
 
-B:
+B: The performance of steps 8-10 are different than the previous step 7 because of the different smoothing values applied.
+For Part 7, the smoothing value was 1, whereas the smoothing for 9 and 10 were 0.0001 and 0.9 respectively. This means that
+words which did not appear hold far less value in the latter two steps. So, if a class was missing a lot of words, when trying 
+to figure out what to classify a document has, it can be mismatched due to the probability dropping closer to zero.
 
 

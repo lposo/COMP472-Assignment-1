@@ -67,3 +67,171 @@ print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
 print("Macro F1:", metrics.f1_score(y_test, y_pred, average='macro'))
 
 print("Weighted F1:", metrics.f1_score(y_test, y_pred, average='weighted'))
+	
+# Base-DT
+
+print("Base-DT")
+
+clf = DecisionTreeClassifier()
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
+
+# Confusion Matrix:
+print(confusion_matrix(y_test, y_pred))
+
+# Classification Report:
+
+print(classification_report(y_test, y_pred, target_names=categories))
+
+# Accuracy Score, F1 Score:
+
+print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
+
+print("Macro F1:", metrics.f1_score(y_test, y_pred, average='macro'))
+
+print("Weighted F1:", metrics.f1_score(y_test, y_pred, average='weighted'))
+
+#Top-DT, max_depth = 10, min samples split = 3:
+
+print("Top-DT, max_depth = 10, min samples split = 3")
+
+clf = GridSearchCV(DecisionTreeClassifier(), param_grid=[{'criterion':['gini'], 'max_depth': [10], 'min_samples_split': [3]}])
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
+
+# Confusion Matrix:
+print(confusion_matrix(y_test, y_pred))
+
+# Classification Report:
+
+print(classification_report(y_test, y_pred, target_names=categories))
+
+# Accuracy Score, F1 Score:
+
+print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
+
+print("Macro F1:", metrics.f1_score(y_test, y_pred, average='macro'))
+
+print("Weighted F1:", metrics.f1_score(y_test, y_pred, average='weighted'))
+
+# Top-DT max_depth = 8, min samples split = 5:
+
+print("Top-DT, max_depth = 8, min samples split = 5")
+
+clf = GridSearchCV(DecisionTreeClassifier(), param_grid=[{'criterion':['gini'], 'max_depth': [8], 'min_samples_split': [5]}])
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
+
+# Confusion Matrix:
+print(confusion_matrix(y_test, y_pred))
+
+# Classification Report:
+
+print(classification_report(y_test, y_pred, target_names=categories))
+
+# Accuracy Score, F1 Score:
+
+print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
+
+print("Macro F1:", metrics.f1_score(y_test, y_pred, average='macro'))
+
+print("Weighted F1:", metrics.f1_score(y_test, y_pred, average='weighted'))
+
+# Top-DT max_depth = 15, min samples split = 2:
+
+print("Top-DT, max_depth = 15, min samples split = 2")
+
+clf = GridSearchCV(DecisionTreeClassifier(), param_grid=[{'criterion':['gini'], 'max_depth': [15], 'min_samples_split': [2]}])
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
+
+# Confusion Matrix:
+print(confusion_matrix(y_test, y_pred))
+
+# Classification Report:
+
+print(classification_report(y_test, y_pred, target_names=categories))
+
+# Accuracy Score, F1 Score:
+
+print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
+
+print("Macro F1:", metrics.f1_score(y_test, y_pred, average='macro'))
+
+print("Weighted F1:", metrics.f1_score(y_test, y_pred, average='weighted'))
+
+# Perceptron
+
+print("Perceptron")
+
+clf = Perceptron()
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
+
+# Confusion Matrix:
+print(confusion_matrix(y_test, y_pred))
+
+# Classification Report:
+
+print(classification_report(y_test, y_pred, target_names=categories))
+
+# Accuracy Score, F1 Score:
+
+print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
+
+print("Macro F1:", metrics.f1_score(y_test, y_pred, average='macro'))
+
+print("Weighted F1:", metrics.f1_score(y_test, y_pred, average='weighted'))
+
+# Base-MLP
+
+print("Base-MLP")
+
+clf = MLPClassifier(hidden_layer_sizes=(100,), activation='logistic', solver='sgd')
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
+
+# Confusion Matrix:
+print(confusion_matrix(y_test, y_pred))
+
+# Classification Report:
+
+print(classification_report(y_test, y_pred, target_names=categories))
+
+# Accuracy Score, F1 Score:
+
+print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
+
+print("Macro F1:", metrics.f1_score(y_test, y_pred, average='macro'))
+
+print("Weighted F1:", metrics.f1_score(y_test, y_pred, average='weighted'))
+
+# Top-MLP
+
+print("Top-MLP - Hidden Layer Sizes: 30,50 - Activation: Tanh - Solver: Adam")
+
+clf = GridSearchCV(MLPClassifier(), param_grid=[{'hidden_layer_sizes':[30,50], 'activation': ['tanh'], 'solver': ['adam']}])
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
+
+# Confusion Matrix:
+print(confusion_matrix(y_test, y_pred))
+
+# Classification Report:
+
+print(classification_report(y_test, y_pred, target_names=categories))
+
+# Accuracy Score, F1 Score:
+
+print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
+
+print("Macro F1:", metrics.f1_score(y_test, y_pred, average='macro'))
+
+print("Weighted F1:", metrics.f1_score(y_test, y_pred, average='weighted'))

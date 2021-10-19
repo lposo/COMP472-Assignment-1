@@ -1,0 +1,4 @@
+The same model should give the same performance, as theyt are all fit based on the same dataset.
+However, I realized that I hhad made a mistake and redid Step 5 in addition to Step 6 instead of Step 6 only,
+so my averages vary widely between each attempt. However, the onyl time that performance should have a marginal
+difference is when adjusting the parameters inputted during Top-DT and Top-MLP.
